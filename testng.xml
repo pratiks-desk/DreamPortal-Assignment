@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dream Portal Test Suite">
+    <test name="Dream Portal UI Tests">
+        <classes>
+            <class name="com.dreamportal.tests.IndexPageTest"/>
+            <class name="com.dreamportal.tests.DreamsDiaryTest"/>
+            <class name="com.dreamportal.tests.DreamsTotalTest"/>
+        </classes>
+    </test>
+</suite>

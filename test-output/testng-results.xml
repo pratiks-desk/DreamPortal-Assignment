@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-23T14:44:51 IST" name="Dream Portal Test Suite" finished-at="2025-05-23T14:45:26 IST" duration-ms="35681">
+    <groups>
+    </groups>
+    <test started-at="2025-05-23T14:44:51 IST" name="Dream Portal UI Tests" finished-at="2025-05-23T14:45:26 IST" duration-ms="35681">
+      <class name="com.dreamportal.tests.DreamsTotalTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dreamportal.tests.DreamsTotalTest@13c9d689]" started-at="2025-05-23T14:45:19 IST" name="setUp" finished-at="2025-05-23T14:45:21 IST" duration-ms="2134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDreamsSummaryStatsAndRecurringLogic()[pri:1, instance:com.dreamportal.tests.DreamsTotalTest@13c9d689]" started-at="2025-05-23T14:45:21 IST" name="verifyDreamsSummaryStatsAndRecurringLogic" finished-at="2025-05-23T14:45:26 IST" duration-ms="5452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDreamsSummaryStatsAndRecurringLogic -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dreamportal.tests.DreamsTotalTest@13c9d689]" started-at="2025-05-23T14:45:26 IST" name="tearDown" finished-at="2025-05-23T14:45:26 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dreamportal.tests.DreamsTotalTest -->
+      <class name="com.dreamportal.tests.DreamsDiaryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dreamportal.tests.DreamsDiaryTest@28701274]" started-at="2025-05-23T14:45:12 IST" name="setUp" finished-at="2025-05-23T14:45:17 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDreamEntriesCount()[pri:1, instance:com.dreamportal.tests.DreamsDiaryTest@28701274]" started-at="2025-05-23T14:45:17 IST" name="verifyDreamEntriesCount" finished-at="2025-05-23T14:45:17 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDreamEntriesCount -->
+        <test-method signature="verifyDreamTypesValidity()[pri:2, instance:com.dreamportal.tests.DreamsDiaryTest@28701274]" started-at="2025-05-23T14:45:17 IST" name="verifyDreamTypesValidity" finished-at="2025-05-23T14:45:17 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDreamTypesValidity -->
+        <test-method signature="verifyAllColumnsAreFilled()[pri:3, instance:com.dreamportal.tests.DreamsDiaryTest@28701274]" started-at="2025-05-23T14:45:17 IST" name="verifyAllColumnsAreFilled" finished-at="2025-05-23T14:45:18 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllColumnsAreFilled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dreamportal.tests.DreamsDiaryTest@28701274]" started-at="2025-05-23T14:45:18 IST" name="tearDown" finished-at="2025-05-23T14:45:19 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dreamportal.tests.DreamsDiaryTest -->
+      <class name="com.dreamportal.tests.IndexPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.dreamportal.tests.IndexPageTest@6771beb3]" started-at="2025-05-23T14:44:51 IST" name="setUp" finished-at="2025-05-23T14:44:53 IST" duration-ms="2432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoadingAnimationDuration()[pri:1, instance:com.dreamportal.tests.IndexPageTest@6771beb3]" started-at="2025-05-23T14:44:53 IST" name="testLoadingAnimationDuration" finished-at="2025-05-23T14:45:00 IST" duration-ms="6768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoadingAnimationDuration -->
+        <test-method signature="testMainContentAndButtonVisibility()[pri:2, instance:com.dreamportal.tests.IndexPageTest@6771beb3]" started-at="2025-05-23T14:45:00 IST" name="testMainContentAndButtonVisibility" finished-at="2025-05-23T14:45:03 IST" depends-on-methods="com.dreamportal.tests.IndexPageTest.testLoadingAnimationDuration" duration-ms="3326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMainContentAndButtonVisibility -->
+        <test-method signature="testMyDreamsButtonOpensTabs()[pri:3, instance:com.dreamportal.tests.IndexPageTest@6771beb3]" started-at="2025-05-23T14:45:03 IST" name="testMyDreamsButtonOpensTabs" finished-at="2025-05-23T14:45:11 IST" depends-on-methods="com.dreamportal.tests.IndexPageTest.testMainContentAndButtonVisibility" duration-ms="7436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyDreamsButtonOpensTabs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dreamportal.tests.IndexPageTest@6771beb3]" started-at="2025-05-23T14:45:11 IST" name="tearDown" finished-at="2025-05-23T14:45:12 IST" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dreamportal.tests.IndexPageTest -->
+    </test> <!-- Dream Portal UI Tests -->
+  </suite> <!-- Dream Portal Test Suite -->
+</testng-results>

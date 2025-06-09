@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Dream_Portal_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Dream Portal Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Dream_Portal_Test_Suite" class="navigator-link ">
+                    <span>C:\selenium-automation-project\DreamPortalTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Dream_Portal_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Dream_Portal_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Dream_Portal_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Dream_Portal_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Dream_Portal_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Dream_Portal_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Dream_Portal_Test_Suite" class="hide-methods passed suite-Dream_Portal_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Dream_Portal_Test_Suite -->
+                      <a href="#" panel-name="suite-Dream_Portal_Test_Suite" class="show-methods passed suite-Dream_Portal_Test_Suite"> (show)</a> <!-- show-methods passed suite-Dream_Portal_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Dream_Portal_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dream_Portal_Test_Suite" title="com.dreamportal.tests.IndexPageTest" class="method navigator-link" hash-for-method="testLoadingAnimationDuration">testLoadingAnimationDuration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dream_Portal_Test_Suite" title="com.dreamportal.tests.IndexPageTest" class="method navigator-link" hash-for-method="testMainContentAndButtonVisibility">testMainContentAndButtonVisibility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dream_Portal_Test_Suite" title="com.dreamportal.tests.IndexPageTest" class="method navigator-link" hash-for-method="testMyDreamsButtonOpensTabs">testMyDreamsButtonOpensTabs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dream_Portal_Test_Suite" title="com.dreamportal.tests.DreamsDiaryTest" class="method navigator-link" hash-for-method="verifyAllColumnsAreFilled">verifyAllColumnsAreFilled</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dream_Portal_Test_Suite" title="com.dreamportal.tests.DreamsDiaryTest" class="method navigator-link" hash-for-method="verifyDreamEntriesCount">verifyDreamEntriesCount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dream_Portal_Test_Suite" title="com.dreamportal.tests.DreamsDiaryTest" class="method navigator-link" hash-for-method="verifyDreamTypesValidity">verifyDreamTypesValidity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Dream_Portal_Test_Suite" title="com.dreamportal.tests.DreamsTotalTest" class="method navigator-link" hash-for-method="verifyDreamsSummaryStatsAndRecurringLogic">verifyDreamsSummaryStatsAndRecurringLogic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Dream_Portal_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Dream_Portal_Test_Suite" class="panel Dream_Portal_Test_Suite">
+          <div class="suite-Dream_Portal_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dreamportal.tests.IndexPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoadingAnimationDuration">
+                  </a> <!-- testLoadingAnimationDuration -->
+                  <span class="method-name">testLoadingAnimationDuration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMainContentAndButtonVisibility">
+                  </a> <!-- testMainContentAndButtonVisibility -->
+                  <span class="method-name">testMainContentAndButtonVisibility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMyDreamsButtonOpensTabs">
+                  </a> <!-- testMyDreamsButtonOpensTabs -->
+                  <span class="method-name">testMyDreamsButtonOpensTabs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dream_Portal_Test_Suite-class-passed -->
+          <div class="suite-Dream_Portal_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dreamportal.tests.DreamsDiaryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllColumnsAreFilled">
+                  </a> <!-- verifyAllColumnsAreFilled -->
+                  <span class="method-name">verifyAllColumnsAreFilled</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDreamEntriesCount">
+                  </a> <!-- verifyDreamEntriesCount -->
+                  <span class="method-name">verifyDreamEntriesCount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDreamTypesValidity">
+                  </a> <!-- verifyDreamTypesValidity -->
+                  <span class="method-name">verifyDreamTypesValidity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dream_Portal_Test_Suite-class-passed -->
+          <div class="suite-Dream_Portal_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.dreamportal.tests.DreamsTotalTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDreamsSummaryStatsAndRecurringLogic">
+                  </a> <!-- verifyDreamsSummaryStatsAndRecurringLogic -->
+                  <span class="method-name">verifyDreamsSummaryStatsAndRecurringLogic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Dream_Portal_Test_Suite-class-passed -->
+        </div> <!-- panel Dream_Portal_Test_Suite -->
+        <div panel-name="test-xml-Dream_Portal_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\selenium-automation-project\DreamPortalTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Dream Portal Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dream Portal UI Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.dreamportal.tests.IndexPageTest&quot;/&gt;
+      &lt;class name=&quot;com.dreamportal.tests.DreamsDiaryTest&quot;/&gt;
+      &lt;class name=&quot;com.dreamportal.tests.DreamsTotalTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dream Portal UI Tests --&gt;
+&lt;/suite&gt; &lt;!-- Dream Portal Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Dream_Portal_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Dream Portal Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Dream Portal UI Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Dream_Portal_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Dream Portal Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Dream_Portal_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Dream Portal Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Dream_Portal_Test_Suite');
+function tableData_Dream_Portal_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testMyDreamsButtonOpensTabs')
+data.setCell(0, 2, 'com.dreamportal.tests.IndexPageTest')
+data.setCell(0, 3, 7436);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testLoadingAnimationDuration')
+data.setCell(1, 2, 'com.dreamportal.tests.IndexPageTest')
+data.setCell(1, 3, 6768);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyDreamsSummaryStatsAndRecurringLogic')
+data.setCell(2, 2, 'com.dreamportal.tests.DreamsTotalTest')
+data.setCell(2, 3, 5452);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMainContentAndButtonVisibility')
+data.setCell(3, 2, 'com.dreamportal.tests.IndexPageTest')
+data.setCell(3, 3, 3326);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAllColumnsAreFilled')
+data.setCell(4, 2, 'com.dreamportal.tests.DreamsDiaryTest')
+data.setCell(4, 3, 1004);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyDreamTypesValidity')
+data.setCell(5, 2, 'com.dreamportal.tests.DreamsDiaryTest')
+data.setCell(5, 3, 333);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyDreamEntriesCount')
+data.setCell(6, 2, 'com.dreamportal.tests.DreamsDiaryTest')
+data.setCell(6, 3, 20);
+window.suiteTableData['Dream_Portal_Test_Suite']= { tableData: data, tableDiv: 'times-div-Dream_Portal_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
+              <div id="times-div-Dream_Portal_Test_Suite">
+              </div> <!-- times-div-Dream_Portal_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Dream_Portal_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Dream Portal Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Dream_Portal_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Dream_Portal_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dreamportal.tests.IndexPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLoadingAnimationDuration</span>
+                <span class="method-start">2453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMainContentAndButtonVisibility</span>
+                <span class="method-start">9232 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMyDreamsButtonOpensTabs</span>
+                <span class="method-start">12572 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20013 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dreamportal.tests.DreamsDiaryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20982 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyDreamEntriesCount</span>
+                <span class="method-start">26374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDreamTypesValidity</span>
+                <span class="method-start">26397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyAllColumnsAreFilled</span>
+                <span class="method-start">26733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">27738 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.dreamportal.tests.DreamsTotalTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27890 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyDreamsSummaryStatsAndRecurringLogic</span>
+                <span class="method-start">30025 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35479 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
