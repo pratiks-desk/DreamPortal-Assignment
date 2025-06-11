@@ -53,7 +53,7 @@ Automate and validate the **Dream Portal** UI using **Java**, **Selenium WebDriv
 ## 🚀 How to Run Tests
 
 1. Clone the repository:  
-`https://github.com/Er-pratikjoshi/DreamPortal-Assignment.git`
+`https://github.com/pratiks-desk/DreamPortal-Assignment.git`
 
 2. Open the project in Eclipse or IntelliJ IDEA
 
@@ -72,6 +72,7 @@ Assertions confirm UI correctness and data validation across the tested pages.
 
 **Pratik Joshi**  
  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:connect.pratikjoshi@gmail.com)   
- [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Er-pratikjoshi) 
+ [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pratiks-desk) 
  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pratiks-desk/) 
+ 
 ---
