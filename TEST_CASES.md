@@ -59,4 +59,4 @@
 
 - Status marked “Passed” based on test runs with TestNG automation.
 - Pop-up blockers may affect tests opening new tabs/windows; disable them for reliable runs.
-- Tests can be executed via `testng.xml` suite.
+- Tests can be executed via `testng.xml` suite .
